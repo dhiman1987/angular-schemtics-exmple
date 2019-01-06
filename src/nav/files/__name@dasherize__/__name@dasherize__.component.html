@@ -1,7 +1,9 @@
-<div>
-    <h1>Sample nav content</h1>
-    <% if(i18n) { %>
-        <h4>Languge content</h4>
+<div class="nav-wrapper">
+        <% if(i18n) { %>
+    <div style="float: right">
+        <button (click)="setLanguage('en')">En</button>
+        <button (click)="setLanguage('fr')">Fr</button>
+    </div>
     <% }%>
-
+    <span class="brand">Brand</span>
 </div>
