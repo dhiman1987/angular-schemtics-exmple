@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "nav": {
+      "description": "nav schematic.",
+      "factory": "./nav/index#mimo",
+      "schema": "./nav/schema.json"
+    }
+  }
+}
